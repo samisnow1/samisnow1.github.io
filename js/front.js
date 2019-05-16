@@ -26,10 +26,6 @@ $(window).resize(function() {
     }
 });
 
-// UX CATEGORY
-  $( document ).ready(function() {
-  $('.test').wrap('<a href="http://google.com"></a>');
-});
 
 function animations() {
     if (Modernizr.csstransitions) {
