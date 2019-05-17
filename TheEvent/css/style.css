@@ -152,7 +152,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgb(42, 47, 127);
+  background: rgb(84, 44, 95);
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -474,7 +474,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(94, 54, 103, .8);
+  background: rgba(52, 0, 64, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -619,6 +619,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #755478;
 }
 
+.hero-img { width: 64%; }
+
+@media (min-width: 320px) and (max-width: 736px) {
+  .hero-img { width: 80%; }
+}
+
 @-webkit-keyframes pulsate-btn {
   0% {
     -webkit-transform: scale(0.6, 0.6);
@@ -647,9 +653,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-/*--------------------------------------------------------------
+
+
+/* --------------------------------------------------------------
 # About Section
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 #about {
   background: url("../img/about-bg.jpg");
