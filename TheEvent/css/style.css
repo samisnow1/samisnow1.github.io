@@ -67,7 +67,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f82249;
+  background: #88d317;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -90,7 +90,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #e0072f;
+  /* background: #e0072f; */
   color: #fff;
 }
 
@@ -259,13 +259,15 @@ h6 {
 
 .nav-menu a {
   padding: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
   text-decoration: none;
   display: inline-block;
   color: white;
   /* color: rgba(202, 206, 221, 0.8); */
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 20px;
   outline: none;
 }
 
@@ -308,7 +310,7 @@ h6 {
   margin-left: 8px;
   margin-top: 2px;
   line-height: 1;
-  font-size: 13px;
+  font-size: 21px;
 }
 
 .nav-menu li.buy-tickets a:hover {
@@ -874,7 +876,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: #f82249;
+  background: #88d317;
   color: #fff;
 }
 
@@ -1203,6 +1205,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 # F.A.Q Section
 --------------------------------------------------------------*/
 
+.values-ul {
+  border-bottom: none !important;
+}
+
 #faq {
   padding: 60px 0;
 }
@@ -1225,10 +1231,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   font-weight: 600;
   padding-right: 20px;
+  color: black;
 }
 
-#faq #faq-list a:focus{
-  color:black;
+#faq #faq-list a:focus {
+  color: black;
 }
 
 #faq #faq-list i {
@@ -1296,7 +1303,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
-  background: #f82249;
+  background: #88d317;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
@@ -1305,7 +1312,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe button:hover {
-  background: #e0072f;
+  /* background: #e0072f; */
 }
 
 /*--------------------------------------------------------------
@@ -1423,7 +1430,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #f82249;
+  color: #4869df;
 }
 
 #contact .contact-address,
@@ -1475,7 +1482,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #f82249;
+  background: #88d317;
   border: 0;
   padding: 10px 40px;
   color: #fff;
@@ -1485,7 +1492,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #e0072f;
+  /* background: #e0072f; */
 }
 
 /*--------------------------------------------------------------
