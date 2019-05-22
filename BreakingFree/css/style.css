@@ -413,7 +413,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f82249;
+  color: #88d317;
 }
 
 #mobile-nav ul li li {
@@ -756,11 +756,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro-getinvolved {
   width: 100%;
   height: 61vh;
-  background: url(../img/intro-get-involved-bg.jpg) top center;
+  background: url(../img/intro-get-involved-bg.jpg) center center;
   background-size: cover;
   overflow: hidden;
   position: relative;
-  background-position-y: -344px;
+  /* background-position-y: -344px; */
 }
 
 #intro-getinvolved:before {
@@ -941,11 +941,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro-survivors {
   width: 100%;
   height: 61vh;
-  background: url(../img/intro-survivors-bg.jpg) top center;
+  background: url(../img/intro-survivors-bg.jpg) center center;
   background-size: cover;
   overflow: hidden;
   position: relative;
-  background-position-y: -199px;
+  /* background-position-y: -199px; */
 }
 
 #intro-survivors:before {
@@ -1199,6 +1199,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #542C5F;
   color: #fff;
   padding: 10px 100px;
+  margin-top: 10px;
 }
 
 #getinvolved .nav-tabs a.active {
