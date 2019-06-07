@@ -48,4 +48,7 @@ body{background:#F0F0F0;font-family:Open Sans ,sans-serif;line-height:1.5em;}
 @media (max-width:500px){#contact{width:100%;}
 .input_wrapper label{line-height:3.5em;font-size:0.8em;}
 }
-@media screen and (min-device-width:1200px) and (max-device-width:1600px){}
+@media screen and (min-device-width:1200px) and (max-device-width:1600px){
+
+  *{border: 1px solid red;}
+}
