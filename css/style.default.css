@@ -46,7 +46,7 @@ body,
 #intro .item h1{font-size:60px;color:#fff;margin-bottom:40px;font-weight:700;opacity:0;filter:alpha(opacity=0);-webkit-backface-visibility:hidden;}
 @media (max-width:991px){#intro .item h1{font-size:40px;}
 }
-@media (max-width:767px){#intro .item h1{font-size:35px;}
+@media (max-width:767px){#intro .item h1{font-size:45px;}
 }
 #intro .item h2{color:#fff;margin-bottom:120px;font-weight:400;opacity:0;filter:alpha(opacity=0);-webkit-backface-visibility:hidden;}
 @media (max-width:767px){#intro .item h2{font-size:25px;margin-bottom:20px;padding:0 30px;}
