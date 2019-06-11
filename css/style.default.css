@@ -437,7 +437,7 @@ p{margin:0 0 11px;}
 @media (min-width:768px){.lead{font-size:24px;}
 }
 @media only screen
-and (min-device-width:375px)
+and (min-device-width:319px)
 and (max-device-width:667px){#intro .item .carousel-caption{left:0;right:0;bottom:14%;}
 }
 .text-large{font-size:20px;}
