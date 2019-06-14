@@ -53,7 +53,8 @@ body,
 }
 @media (max-width:2560px){#intro .item h2{font-size: 39px; margin-bottom: 7px;}
 }
-#intro .item .carousel-caption{left:0;right:0; /*bottom:38%*/;}
+#intro .item .carousel-caption{position: absolute;
+    top: 25%;left:0;right:0; bottom:38%;}
 #intro .container,
 #intro .row{height:100%;position:relative;}
 .progress-title{text-align:left;font-weight:300;text-transform:uppercase;}
@@ -498,4 +499,3 @@ a.list-group-item.active > .badge,
 .progress-striped .progress-bar-warning{background-image:-webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);}
 .progress-bar-danger{background-color:#d9534f !important;}
 .progress-striped .progress-bar-danger{background-image:-webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);}
- 
